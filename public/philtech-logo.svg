@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0056A4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00A0DC;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Triangle Frame -->
+  <path d="M 350 160 L 600 500 L 200 500 Z" fill="url(#blueGrad)" opacity="0.9"/>
+  <path d="M 650 160 L 900 500 L 600 500 Z" fill="#00A0DC" opacity="0.8"/>
+  
+  <!-- Leaf/Flower Symbol -->
+  <ellipse cx="600" cy="350" rx="40" ry="70" fill="white"/>
+  <ellipse cx="560" cy="380" rx="35" ry="60" fill="white" transform="rotate(-30 560 380)"/>
+  <ellipse cx="640" cy="380" rx="35" ry="60" fill="white" transform="rotate(30 640 380)"/>
+  
+  <!-- Text: philtech -->
+  <text x="350" y="600" font-family="Arial, sans-serif" font-size="140" font-weight="bold" fill="#0056A4">philtech</text>
+  
+  <!-- Subtitle -->
+  <text x="350" y="680" font-family="Arial, sans-serif" font-size="40" letter-spacing="8" fill="#666">AN ALBERTSONS COMPANY</text>
+</svg>
